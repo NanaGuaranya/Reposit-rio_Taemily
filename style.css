@@ -1,45 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
+/* Estilo para o body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.cabecalho {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
+/* Estilo para o cabeçalho */
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
 }
 
-.cabecalho-imagem {
-    width: 10%;
+/* Estilo para a imagem do cabeçalho */
+header img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
-.cabecalho-lista-item {
-    display: unset;
-    margin: 0 16px;
-    font-size: 24px;
-    align-items: center;
-}
-.escola-imagem {
-    width: 50%;
-    align-items: center;
+/* Estilo para o título do cabeçalho */
+header h1 {
+  margin: 0;
 }
 
-.escola {
-    background-image: linear-gradient(#ffffff, #f8b412);
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    padding: 10px 0;
+/* Estilo para a lista de itens do cabeçalho */
+header ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.escola-div-conteudo {
-    width: 50%;
+/* Estilo para os itens da lista do cabeçalho */
+header li {
+  display: inline;
+  margin-right: 20px;
 }
-.escola-titulo {
-    padding: 40px 0;
+
+/* Estilo para os links dos itens da lista do cabeçalho */
+header li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Estilo para os links dos itens da lista do cabeçalho ao passar o mouse */
+header li a:hover {
+  color: #666;
 }
