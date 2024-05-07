@@ -1,48 +1,42 @@
-/* Estilo para o body */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-/* Estilo para o cabeçalho */
-header {
-  background-color: #f0f0f0;
-  padding: 20px;
-  text-align: center;
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
 }
 
-/* Estilo para a imagem do cabeçalho */
-header img {
-  width: 150px;
-  height: auto;
-  margin-bottom: 10px;
+.cabecalho-imagem{
+    width: 50%;
 }
 
-/* Estilo para o título do cabeçalho */
-header h1 {
-  margin: 0;
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+.escola-imagem{
+    width: 50%;
 }
 
-/* Estilo para a lista de itens do cabeçalho */
-header ul {
-  list-style-type: none;
-  padding: 0;
+.escola{
+    background-image: linear-gradient(#615e42,#b40c74);
+    color:rgb(216, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
 
-/* Estilo para os itens da lista do cabeçalho */
-header li {
-  display: inline;
-  margin-right: 20px;
+.escola-div-conteudo{
+    width: 60%%;
 }
-
-/* Estilo para os links dos itens da lista do cabeçalho */
-header li a {
-  text-decoration: none;
-  color: #333;
-}
-
-/* Estilo para os links dos itens da lista do cabeçalho ao passar o mouse */
-header li a:hover {
-  color: #666;
+.escola-titulo{
+    padding: 24px 0;
 }
