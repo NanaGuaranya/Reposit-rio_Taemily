@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem {
+    width: 10%;
+}
+
+.cabecalho-lista-item {
+    display: unset;
+    margin: 0 16px;
+    font-size: 24px;
+    align-items: center;
+}
+.escola-imagem {
+    width: 50%;
+    align-items: center;
+}
+
+.escola {
+    background-image: linear-gradient(#ffffff, #f8b412);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.escola-div-conteudo {
+    width: 50%;
+}
+.escola-titulo {
+    padding: 40px 0;
+}
