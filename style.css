@@ -1,43 +1,131 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
 }
 
+body {
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
 .cabecalho {
-    background-color: #424E61;
-    color: white;
+    background-color: #006400;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
 }
 
-.cabecalho-imagem{
-    width: 15%;
+.cabecalho-titulo {
+    color: #ffffff;
+    font-size: 42px;
 }
 
-.cabecalho-lista-item{
+.cabecalho-lista {
+    color: white;
+    font-size: 18px;
+}
+
+.cabecalho-logotipo {
+    width: 100px;
+}
+
+.cabecalho-lista-item1,
+.cabecalho-lista-item2 {
     display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
-}
-.escola-imagem{
-    width: 50%;
+    margin: 0 12px;
 }
 
-.escola{
-    background-color: #424E61;
-    background-image: ;
-    color:rgb(255, 255, 255);
+/* Seção Agronomia */
+.agronomia {
+    background-image: linear-gradient(#006400, #32cd32);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 0;
+    padding: 40px 0;
+    flex-wrap: wrap;
 }
 
-.escola-div-conteudo{
-    width: 60%%;
+.agronomia-titulo {
+    font-size: 32px;
+    padding: 16px;
 }
-.escola-titulo{
-    padding: 24px 0;
+
+.agronomia-texto1,
+.agronomia-texto2 {
+    font-size: 20px;
+    padding: 16px;
+}
+
+.agronomia-div {
+    width: 50%;
+    padding: 20px;
+}
+
+.agronomia-imagem {
+    width: 40%;
+    border-radius: 10px;
+}
+
+/* Seção Importância */
+.importancia {
+    background-color: #228b22;
+    color: white;
+    padding: 40px 0;
+}
+
+.importancia-titulo {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.importancia-div-todos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    padding: 0 20px;
+}
+
+.importancia-div {
+    background-color: #2e8b57;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.importancia-subtitulo {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.importancia-texto {
+    font-size: 18px;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #006400;
+    color: #f4f4f4;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    align-items: center;
+}
+
+.rodape-imagem {
+    width: 60px;
+}
+
+.rodape-titulo {
+    font-size: 20px;
+}
+
+.rodape-icone {
+    width: 30px;
 }
